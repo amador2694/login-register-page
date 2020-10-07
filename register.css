@@ -1,0 +1,69 @@
+* {
+	margin: 5px;
+	padding: 5px;
+}
+body {
+	font-size: 100%;
+	background: #ff6666; 
+}
+
+.header {
+	width: 30%;
+	margin: 50px auto 0px;
+	color: black; 
+	background: #ffff33;
+	text-align: center;
+	border: 2px solid #B0C4DE;
+	border-radius: 10px 10px 10px 10px;
+	padding: 15px;
+}
+form, .content {
+	width: 30%;
+	margin: 2px auto;
+	padding: 20px;
+	border: 3px solid #B0C4DE;
+	background: white;
+	border-radius: 10px 10px 10px 10px;
+}
+.input-group {
+	margin: 10px 10px 10px 0px;
+}
+.input-group label {
+	display: block;
+	test-align: left;
+	margin: 3px;
+}
+.input-group input {
+  height: 20px;
+  width: 80%;
+  padding: 5px 15px;
+  font-size: 14px;
+  border-radius: 3px;
+  border: 2px solid gray;
+}
+.btn {
+  padding: 12px;
+  font-size: 16px;
+  color: black;
+  background: #ffff33;
+  border: none;
+  border-radius: 3px;
+
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
